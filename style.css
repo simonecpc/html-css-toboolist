@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+  
 }
 
 body {
@@ -12,6 +13,8 @@ body {
 
 h1 {
     font-size: 48px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 header {
@@ -47,7 +50,9 @@ header {
 }
 
 .top {
-    padding: 15px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     border-bottom-width: 1px;
@@ -60,7 +65,7 @@ ul {
 
 .task {
     padding-top: 20px;
-    padding-left: 15px;
+    padding-left: 40px;
 }
 
 .titoli-task {
@@ -78,6 +83,7 @@ ul {
     text-align: center;
     font-size: 10px;
     margin-right: 5px;
+    color: rgb(47, 173, 8);
 }
 
 .btn2 {
@@ -85,14 +91,70 @@ ul {
     border: 1px;
     border-color: lightgray;
     border-style: solid;
-    padding: 5px;
+    padding:5px;
     border-radius: 15px;
     color: lightgray;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .btn-blue2 {
     background-color: rgb(0, 132, 255);
     border-color: rgb(0, 132, 255);
+    color: white;
+    font-size: smaller;
+    margin-left: 3px;
+}
+
+.btn-purple {
+    background-color: rgb(161, 37, 161);
+    border-color: rgb(161, 37, 161);
+    color: white;
+    font-size: smaller;
+    margin-left: 3px;
+}
+
+.cross {
+    border: 1px; 
+    border-radius: 50%;
+    border-color: red;
+    border-style: solid;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    margin-right: 5px;
+    color: red;
+}
+
+.btn-watergreen {
+    background-color: #56b3c3;
+    border-color: #56b3c3;
+    color: white;
+    font-size: smaller;
+    margin-left: 3px;
+}
+
+.btn-orange {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    font-size: smaller;
+    margin-left: 3px;
+}
+
+.btn-pink {
+    background-color: fuchsia;
+    border-color: fuchsia;
+    color: white;
+    font-size: smaller;
+    margin-left: 3px;
+}
+
+.btn-lightgreen {
+    background-color: lawngreen;
+    border-color: lawngreen;
     color: white;
     font-size: smaller;
     margin-left: 3px;
